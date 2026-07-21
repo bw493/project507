@@ -1,0 +1,101 @@
+Company,Website,Category,Tier,Contact Name,Role,Email,Personalization Hook,Date Sent,Bump 1 Date,Bump 2 Date,Status,Notes,Handoff Owner
+EXAMPLE - Elemind Technologies,https://elemind.com,Consumer Neurotech,A,Jane Doe,CEO & Co-founder,jane@elemind.com,Closed-loop EEG sleep modulation overlaps directly with our neurofeedback pipeline,2026-07-21,2026-07-26,2026-08-02,Sent,Found via Neurofounders map; Series A announced June 2026,Brian Wu
+3Brain,,Tools & Infrastructure,C,,,,,,,,Not Sent,Neurofounders map; Tier C - in-vitro HD-MEA microelectrode arrays; Switzerland,Brian Wu
+ABILITY Neurotech,,BCI,C,,,,,,,,Not Sent,Neurofounders map; Tier C - early/undetermined focus; verify,Brian Wu
+Affectable Sleep,,Consumer Neurotech,B,,,,,,,,Not Sent,Neurofounders map; Tier B - sleep neurotech; US; verify EEG relevance,Brian Wu
+Aleva Neurotherapeutics,,Neuromodulation,C,,,,,,,,Not Sent,Neurofounders map; Tier C - DBS implants; Switzerland,Brian Wu
+Alljoined,https://alljoined.com,BCI / Tools,A,,,,,,,,Not Sent,Neurofounders map; Tier A - non-invasive EEG-to-image decoding + open consumer-grade EEG datasets; Brooklyn NY; direct pipeline overlap,Brian Wu
+Altoida,,Diagnostics,C,,,,,,,,Not Sent,Neurofounders map; Tier C - digital cognitive biomarker; US/Switzerland,Brian Wu
+Alto Neuroscience,,Diagnostics / Tools,B,,,,,,,,Not Sent,Neurofounders map; Tier B - EEG-biomarker psychiatry; Mountain View CA; public/pharma-focused,Brian Wu
+Amber Therapeutics,,Neuromodulation,C,,,,,,,,Not Sent,Neurofounders map; Tier C - closed-loop neuromodulation; UK,Brian Wu
+Ampa Health,,Undetermined,C,,,,,,,,Not Sent,Neurofounders map; Tier C - undetermined; verify,Brian Wu
+Anthriq,,Tools & Infrastructure / BCI,B,,,,,,,,Not Sent,Neurofounders map; Tier B - analog biosignal processing for EEG/BCI; verify stage & location,Brian Wu
+Aora,,Undetermined,C,,,,,,,,Not Sent,Neurofounders map; Tier C - undetermined; verify,Brian Wu
+Apollo Neuro,,Consumer Neurotech,C,,,,,,,,Not Sent,Neurofounders map; Tier C - haptic stress wearable (not EEG); Pittsburgh,Brian Wu
+Arctop,https://arctop.com,Consumer Neurotech / BCI,A,,,,,,,,Not Sent,Neurofounders map; Tier A - consumer-EEG decoding software; San Francisco CA; named affinity company in plan,Brian Wu
+Artiria Medical,,Medical Device,C,,,,,,,,Not Sent,Neurofounders map; Tier C - stroke intervention devices; Switzerland,Brian Wu
+Atlas,,Undetermined,C,,,,,,,,Not Sent,Neurofounders map; Tier C - ambiguous name; verify,Brian Wu
+Attune Neurosciences,https://attuneneuro.com,Neuromodulation,B,,,,,,,,Not Sent,Neurofounders map; Tier B - focused-ultrasound neuromodulation w/ EEG sensing; Menlo Park CA; weaker decoding overlap,Brian Wu
+Aural Analytics,,Diagnostics,C,,,,,,,,Not Sent,Neurofounders map; Tier C - speech biomarkers (not EEG); US,Brian Wu
+AWEAR,,Undetermined,C,,,,,,,,Not Sent,Neurofounders map; Tier C - undetermined; verify,Brian Wu
+Axoft,,BCI,B,,,,,,,,Not Sent,Neurofounders map; Tier B - soft (invasive) neural implants; Boston; BCI-adjacent,Brian Wu
+Axorus,,Neuromodulation,C,,,,,,,,Not Sent,Neurofounders map; Tier C - retinal/neural implants; France,Brian Wu
+Beacon Biosignals,https://beacon.bio,Tools & Infrastructure,A,,,,,,,,Not Sent,"Neurofounders map; Tier A - EEG ML platform / brain-data foundation model; Boston; strong technical fit (note: Series B, pharma-focused)",Brian Wu
+Bía Neuroscience,,Undetermined,C,,,,,,,,Not Sent,Neurofounders map; Tier C - undetermined; verify,Brian Wu
+Biological Input Output Systems,,BCI / Neuromodulation,B,,,,,,,,Not Sent,Neurofounders map; Tier B - closed-loop neural interfaces; UK; likely same entity as BIOS Health,Brian Wu
+BioSerenity,,Diagnostics,B,,,,,,,,Not Sent,Neurofounders map; Tier B - clinical EEG/epilepsy diagnostics; France,Brian Wu
+BIOS Health,,BCI / Neuromodulation,B,,,,,,,,Not Sent,Neurofounders map; Tier B - closed-loop bioelectronics; UK/Canada,Brian Wu
+Bitbrain,,BCI / Tools,B,,,,,,,,Not Sent,Neurofounders map; Tier B - EEG hardware + BCI; Spain (geographic fit weaker),Brian Wu
+Blackrock Neurotech,,BCI,B,,,,,,,,Not Sent,Neurofounders map; Tier B - invasive BCI implants; Salt Lake City; later-stage,Brian Wu
+Bottneuro,,Neuromodulation,C,,,,,,,,Not Sent,Neurofounders map; Tier C - Alzheimer's personalized tES cap; Switzerland,Brian Wu
+BrainBit,https://brainbit.com,Consumer Neurotech / Tools,A,,,,,,,,Not Sent,Neurofounders map; Tier A - consumer EEG headband + neurofeedback SDK; named affinity company; mirrors CruX pipeline,Brian Wu
+BrainCapture,,Diagnostics,B,,,,,,,,Not Sent,Neurofounders map; Tier B - portable EEG for epilepsy; Denmark,Brian Wu
+BrainCheck,,Diagnostics,C,,,,,,,,Not Sent,Neurofounders map; Tier C - tablet cognitive assessment (not EEG); Houston,Brian Wu
+BrainCo,https://brainco.tech,Consumer Neurotech,A,,,,,,,,Not Sent,Neurofounders map; Tier A - consumer EEG (FocusCalm) neurofeedback; Somerville MA,Brian Wu
+BrainKey,,Imaging,C,,,,,,,,Not Sent,Neurofounders map; Tier C - brain MRI analytics; US,Brian Wu
+Brainomix,,Imaging,C,,,,,,,,Not Sent,Neurofounders map; Tier C - stroke imaging AI; UK,Brian Wu
+BrainPatch,,Neuromodulation,C,,,,,,,,Not Sent,Neurofounders map; Tier C - noninvasive neurostim + AI; UK,Brian Wu
+Brainphonics,,Undetermined,C,,,,,,,,Not Sent,Neurofounders map; Tier C - undetermined (audio/neuro?); verify,Brian Wu
+BRAIN.Q,,Neuromodulation,B,,,,,,,,Not Sent,Neurofounders map; Tier B - EEG/ML-guided electromagnetic therapy (stroke); Israel,Brian Wu
+Brainquant,,Undetermined,C,,,,,,,,Not Sent,Neurofounders map; Tier C - undetermined; verify,Brian Wu
+BrainScan,,Imaging,C,,,,,,,,Not Sent,Neurofounders map; Tier C - undetermined (imaging?); verify,Brian Wu
+BrainScope,,Diagnostics,B,,,,,,,,Not Sent,Neurofounders map; Tier B - handheld EEG for TBI/concussion; US,Brian Wu
+BrainSightAI,,Imaging,C,,,,,,,,Not Sent,Neurofounders map; Tier C - brain mapping/imaging; India,Brian Wu
+BrainsWay,,Neuromodulation,C,,,,,,,,Not Sent,Neurofounders map; Tier C - deep TMS therapy; Israel; public,Brian Wu
+BrainTrip,,Diagnostics,B,,,,,,,,Not Sent,Neurofounders map; Tier B - EEG-based cognitive screening; Europe; verify,Brian Wu
+BRNLIT AI,,Undetermined,C,,,,,,,,Not Sent,Neurofounders map; Tier C - undetermined; verify,Brian Wu
+Cadence Neuroscience,,Neuromodulation,C,,,,,,,,Not Sent,Neurofounders map; Tier C - epilepsy neurostim implant; US,Brian Wu
+Cahira Technologies,,Undetermined,C,,,,,,,,Not Sent,Neurofounders map; Tier C - undetermined; verify,Brian Wu
+Cala Health,,Neuromodulation,B,,,,,,,,Not Sent,Neurofounders map; Tier B - wrist neuromodulation for tremor; San Mateo CA; therapeutic,Brian Wu
+Cambridge Cognition,,Diagnostics,C,,,,,,,,Not Sent,Neurofounders map; Tier C - cognitive testing software; UK; public,Brian Wu
+Cambridge NeuroTech,,Tools & Infrastructure,B,,,,,,,,Not Sent,Neurofounders map; Tier B - neural recording probes; UK; electrophysiology tools,Brian Wu
+Capri Medical,,Neuromodulation,C,,,,,,,,Not Sent,Neurofounders map; Tier C - implantable neurostim; Ireland/NZ,Brian Wu
+Carthera,,Medical Device,C,,,,,,,,Not Sent,Neurofounders map; Tier C - focused ultrasound (BBB); France,Brian Wu
+Cefaly,,Neuromodulation,C,,,,,,,,Not Sent,Neurofounders map; Tier C - migraine neurostim wearable; Belgium,Brian Wu
+Cerca Magnetics,,Tools & Infrastructure / Imaging,B,,,,,,,,Not Sent,Neurofounders map; Tier B - OPM-MEG systems; UK; MEG not EEG,Brian Wu
+Cercare Medical,,Imaging,C,,,,,,,,Not Sent,Neurofounders map; Tier C - stroke perfusion imaging; Denmark,Brian Wu
+Cerebriu,,Imaging,C,,,,,,,,Not Sent,Neurofounders map; Tier C - brain MRI AI; Denmark,Brian Wu
+CereGate,,Neuromodulation,C,,,,,,,,Not Sent,Neurofounders map; Tier C - neuromodulation therapy; Germany,Brian Wu
+Cerevia Neurosciences,,Undetermined,C,,,,,,,,Not Sent,Neurofounders map; Tier C - undetermined; verify,Brian Wu
+Ceribell,,Diagnostics,B,,,,,,,,Not Sent,Neurofounders map; Tier B - rapid EEG seizure detection; Sunnyvale CA; clinical/public,Brian Wu
+Charco Neurotech,,Neuromodulation,C,,,,,,,,Not Sent,Neurofounders map; Tier C - Parkinson's vibrotactile wearable; UK,Brian Wu
+Cionic,,Neuromodulation,B,,,,,,,,Not Sent,Neurofounders map; Tier B - neural sleeve (FES); San Francisco CA; EMG/FES-adjacent,Brian Wu
+Clarity,,Undetermined,C,,,,,,,,Not Sent,Neurofounders map; Tier C - ambiguous name; verify,Brian Wu
+Clee Medical,,Medical Device,C,,,,,,,,Not Sent,Neurofounders map; Tier C - neurosurgery navigation; Israel,Brian Wu
+Coapt,,BCI / Tools,B,,,,,,,,Not Sent,Neurofounders map; Tier B - myoelectric (EMG) prosthetic control; Chicago; overlaps CruX EMG work,Brian Wu
+Cogitat,,BCI,B,,,,,,,,Not Sent,"Neurofounders map; Tier B - motor-imagery EEG decoding; UK; strong technical, weaker geo",Brian Wu
+Cognision,,Diagnostics,B,,,,,,,,Not Sent,Neurofounders map; Tier B - ERP/EEG cognitive assessment; US,Brian Wu
+Cognito Therapeutics,,Neuromodulation,C,,,,,,,,Not Sent,Neurofounders map; Tier C - 40Hz gamma sensory stim (Alzheimer's); Cambridge MA,Brian Wu
+Cognixion,https://cognixion.com,BCI,A,,,,,,,,Not Sent,Neurofounders map; Tier A - EEG+AR BCI using SSVEP; Santa Barbara CA; SSVEP aligns with recommended first-project paradigm,Brian Wu
+Cognoa,,Diagnostics,C,,,,,,,,Not Sent,Neurofounders map; Tier C - autism diagnostic AI (behavioral); US,Brian Wu
+Cogwear,,Consumer Neurotech,A,,,,,,,,Not Sent,Neurofounders map; Tier A - consumer EEG wearable; US; WEBSITE UNVERIFIED - confirm before use,Brian Wu
+Coherence Neuro,,Undetermined,C,,,,,,,,Not Sent,Neurofounders map; Tier C - undetermined; verify,Brian Wu
+CoMind,,Tools & Infrastructure,B,,,,,,,,Not Sent,Neurofounders map; Tier B - non-invasive brain monitoring (optical); UK/US,Brian Wu
+Connectoma Neurotech,,Undetermined,C,,,,,,,,Not Sent,Neurofounders map; Tier C - undetermined; verify,Brian Wu
+Connectome Health,,Undetermined,C,,,,,,,,Not Sent,Neurofounders map; Tier C - undetermined; verify,Brian Wu
+Control Bionics,,BCI / Assistive,B,,,,,,,,Not Sent,Neurofounders map; Tier B - EMG+eye-tracking assistive (NeuroNode); US/Australia,Brian Wu
+Cordance Medical,,Medical Device,C,,,,,,,,Not Sent,Neurofounders map; Tier C - focused ultrasound; US,Brian Wu
+CorTec,,BCI,B,,,,,,,,Not Sent,Neurofounders map; Tier B - implantable brain interfaces; Germany,Brian Wu
+Corticale,,Tools & Infrastructure,C,,,,,,,,Not Sent,Neurofounders map; Tier C - implantable microelectrodes; Italy,Brian Wu
+Cortical Labs,,Tools & Infrastructure,C,,,,,,,,Not Sent,Neurofounders map; Tier C - biological-neuron compute (DishBrain); Australia; exploratory,Brian Wu
+CortiVision,,Tools & Infrastructure,B,,,,,,,,Not Sent,Neurofounders map; Tier B - fNIRS neuroimaging; Poland,Brian Wu
+CraniUS Therapeutics,,Medical Device,C,,,,,,,,Not Sent,Neurofounders map; Tier C - implantable drug delivery; US,Brian Wu
+CTRL-labs (Meta),,Consumer Neurotech / BCI,C,,,,,,,,Not Sent,Neurofounders map; Tier C - EMG neural input; owned by Meta - not an independent outreach target,Brian Wu
+Cumulus Neuroscience,,Tools & Infrastructure,B,,,,,,,,Not Sent,Neurofounders map; Tier B - EEG platform for CNS trials; UK/US,Brian Wu
+Curonix,,Neuromodulation,C,,,,,,,,Not Sent,Neurofounders map; Tier C - wireless neurostim (SCS); US,Brian Wu
+Dandelion Science,,Neuromodulation,C,,,,,,,,Not Sent,Neurofounders map; Tier C - AI sensory neuromodulation; US,Brian Wu
+DEEGtal,,Undetermined,C,,,,,,,,Not Sent,Neurofounders map; Tier C - undetermined (EEG?); verify,Brian Wu
+DeepSpin,,Imaging,C,,,,,,,,Not Sent,Neurofounders map; Tier C - AI-driven MRI; Germany,Brian Wu
+Earable Neuroscience,https://earable.ai,Consumer Neurotech,A,,,,,,,,Not Sent,Neurofounders map; Tier A - consumer EEG brainband (FRENZ) tracks+stimulates; Boulder CO,Brian Wu
+Eightsix Science,,Undetermined,C,,,,,,,,Not Sent,Neurofounders map; Tier C - undetermined; verify,Brian Wu
+ELDA BrainTech,,Consumer Neurotech / Neurofeedback,B,,,,,,,,Not Sent,Neurofounders map; Tier B - EEG neurofeedback; Israel,Brian Wu
+ElectroCore,,Neuromodulation,C,,,,,,,,Not Sent,Neurofounders map; Tier C - vagus nerve stim (gammaCore); US; public,Brian Wu
+Elemind,https://elemind.com,Consumer Neurotech,A,,,,,,,,Not Sent,Neurofounders map; Tier A - closed-loop EEG wearable; Cambridge MA; named affinity company (see example row),Brian Wu
+EMOTIV,https://emotiv.com,Consumer Neurotech,A,,,,,,,,Not Sent,Neurofounders map; Tier A - consumer/research EEG headsets; San Francisco CA; named affinity company (note: mature-stage),Brian Wu
+Empatica,,Consumer Neurotech / Diagnostics,B,,,,,,,,Not Sent,Neurofounders map; Tier B - wearable biosensing (seizure); Boston/Milan; not EEG-primary,Brian Wu
+Emteq Labs,,Consumer Neurotech,B,,,,,,,,Not Sent,Neurofounders map; Tier B - facial-EMG sensing eyewear; UK,Brian Wu
+EMVision,,Imaging,C,,,,,,,,Not Sent,Neurofounders map; Tier C - EM brain scanner (stroke); Australia,Brian Wu
+Encora Therapeutics,,Neuromodulation,C,,,,,,,,Not Sent,Neurofounders map; Tier C - tremor-relief wearable; US,Brian Wu
+eNeura,,Neuromodulation,C,,,,,,,,Not Sent,Neurofounders map; Tier C - TMS for migraine; US,Brian Wu
+Epia Neuro,,Undetermined,C,,,,,,,,Not Sent,Neurofounders map; Tier C - undetermined; verify,Brian Wu
+Epiminder,,Diagnostics,B,,,,,,,,Not Sent,Neurofounders map; Tier B - implantable subscalp EEG (epilepsy); Australia,Brian Wu
