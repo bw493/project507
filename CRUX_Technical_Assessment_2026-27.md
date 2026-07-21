@@ -49,74 +49,51 @@ The planning spreadsheet documents active refinement rather than reuse: consolid
 
 ---
 
-## 3. Identified Gaps and Recommended Additions
 
-### 3.1 Epoching and event-locking
-Currently defined but underdeveloped. The technically substantive content is *what determines the analysis window*:
+## 3. Partner-Matching Framework
 
-- Baseline correction intervals.
-- Latency of the target component — P300 at approximately 300 ms post-stimulus; ERD/ERS in motor imagery over roughly 0.5–2.5 s.
-- How marker and trigger timing is actually recorded and synchronized.
+This section translates the strengths described above into a standard for evaluating candidate organizations, so that future mapping proceeds consistently rather than case by case. It connects that standard to the outreach tiers (A/B/C) through an explicit decision rule, and defines the cooperation groups so that they serve the full breadth of the membership — computational biology and neuroscience, mathematics and statistics, and business and economics, as well as engineering and computer science.
 
-Timing precision is where most undergraduate BCI projects fail silently. This deserves substantially more weight.
+### 3.1 Matching characteristics (the standard)
 
-### 3.2 Feature extraction — make it paradigm-specific
-Time, frequency, and spatial features are named but not grounded. Recommend mapping features to paradigms explicitly:
+A candidate organization is a strong match to the degree that it exhibits the following characteristics:
 
-| Paradigm | Recommended features |
-| --- | --- |
-| Motor imagery | Band power in mu (8–13 Hz) and beta (13–30 Hz) over C3/C4/Cz; Common Spatial Patterns (CSP) |
-| P300 / ERP | Downsampled time-domain amplitudes over post-stimulus window; Pz and parietal sites |
-| SSVEP | Power or Canonical Correlation Analysis (CCA) at stimulus frequencies and harmonics |
+- **Technical and domain overlap** with CRUX's core pipeline — noninvasive EEG acquisition, preprocessing, feature extraction, and classification — or with the scientific, quantitative, and commercial questions that surround it. The closer a partner's work sits to this territory, the more directly members across disciplines can contribute.
+- **Stack and hardware compatibility** — familiarity with OpenBCI-class hardware, BrainFlow/LSL streaming, or an MNE-Python and scikit-learn software environment lowers onboarding cost for both parties.
+- **Stage and receptiveness** — early-to-mid-stage companies (roughly pre-seed through Series B) and labs without an established undergraduate pipeline tend to derive the most value from student engagement.
+- **Geographic proximity** — California, and Southern California in particular, permits in-person collaboration, site visits, and guest sessions.
+- **Defined engagement surface** — a scoped problem, dataset, study, or business question that a student team can realistically address within a single academic term. Because the membership is multidisciplinary, this surface need not be an engineering task; it may equally be a signal-analysis or validation study, a modeling problem, or a market, user, or partnership question.
 
-**Note:** SSVEP is absent from the current curriculum. It is the highest-accuracy, lowest-effort paradigm available and is the strongest candidate for a first member project.
+These criteria are cumulative rather than absolute. An organization need not satisfy all five to warrant contact; the number and strength of matches provide a consistent basis for prioritization.
 
-### 3.3 Classification and evaluation — raise to preprocessing-level rigor
+### 3.2 Tier decision rule (the dividing lines)
 
-**Baselines over exotica.** LDA on CSP features and shrinkage-LDA remain competitive on small EEG datasets. Riemannian geometry methods (covariance matrices with tangent-space mapping, via `pyriemann`) are the modern strong baseline and are notably robust with limited trials.
+Two of the five characteristics serve as the decisive dividing lines for tiering: **technical and domain overlap** and **US geography (California preferred)**. Applying them in sequence assigns each candidate an unambiguous tier, operationalizing the Sub-goal 1.1 target of 40–50 startups without leaving tier placement to case-by-case judgment.
 
-**Validation methodology is the highest-value addition.** Random k-fold cross-validation on epoched EEG leaks information across temporally adjacent trials and inflates reported accuracy. Recommend teaching:
+| Tier | Technical / domain overlap | Geography | Target count |
+| --- | --- | --- | --- |
+| **A** | Strong — direct overlap with a CRUX project or pipeline stage | US-based, ideally California | 10–15 |
+| **B** | Relevant category but adjacent rather than direct — *or* strong overlap located outside the US | exactly one Tier-A line unmet | 15–20 |
+| **C** | Category-adjacent or exploratory; engagement surface not yet identifiable | any | remainder to reach 40–50 |
 
-- Blocked or session-wise cross-validation.
-- Within-subject versus cross-subject evaluation, and why the latter is much harder.
-- Chance-level context — report against a permutation-derived or binomial confidence bound, not naively against 50%.
+Stated as a single rule: an organization is **Tier A only if it clears both the overlap line and the US-geography line**; missing exactly one of the two places it in **Tier B**; missing both, or lacking any identifiable engagement surface, places it in **Tier C**. Outreach then sequences A → B → C, and the three counts sum to the 40–50 total.
 
-### 3.4 Referencing and montage
-Re-referencing (common average, mastoid, Laplacian) materially changes results, is conceptually accessible, and is currently absent. It belongs in the Preprocessing workshop.
+### 3.3 Cooperation categories (cross-disciplinary)
 
-### 3.5 Standardize the software stack
-Naming a canonical stack would let each cohort inherit working code rather than rebuild it:
+Prospective partners fall into four broad groups. Groups 1 through 3 correspond to the categories in which CRUX holds demonstrable credibility; Group 4 extends the same framework to academic collaborators. Each group and its matching signal:
 
-- **MNE-Python** — preprocessing, epoching, visualization
-- **scikit-learn** — classification
-- **pyriemann** — covariance-based methods
-- **BrainFlow / LSL** — acquisition and streaming
+1. **Brain–Computer Interface** — direct overlap with CRUX's decoding and classification pipeline.
+2. **Consumer Neurotech** — applied EEG, wearables, and neurofeedback products.
+3. **Tools & Infrastructure** — hardware, acquisition systems, SDKs, and analysis software.
+4. **Research Institutes & Academic Labs** — neural-engineering and neuroprosthetics research programs.
 
-### 3.6 Slide deck completeness
-Several slides remain placeholders ("add data flow diagram," "insert demo video," blank slides). Instructional quality currently depends heavily on the individual presenter. Building out visual and code content would make material robust and reusable across leads.
+Crucially, each group offers an engagement surface for every discipline in the membership, not for engineers alone. The matrix below shows how members from each background plug in:
 
-### 3.7 Curriculum balance
-Preprocessing is fully developed; feature extraction and classification exist largely as outlines. Bringing the later pipeline stages to comparable depth is the clearest path to a balanced curriculum.
+| Group | Engineering & CS | Comp bio & neuro | Math & stats | Business & econ |
+| --- | --- | --- | --- | --- |
+| **1. BCI** | Pipeline builds, streaming, classifier implementation | Paradigm design, biomarker and signal interpretation | Decoding models, validation methodology | Use-case framing, partnership scoping |
+| **2. Consumer Neurotech** | Firmware, app and device integration | Physiological grounding, effect validation | Experimental design, statistical analysis | User research, positioning, go-to-market |
+| **3. Tools & Infrastructure** | Integration, tooling, benchmarking | Validation datasets, domain testing | Performance benchmarking, methods comparison | Developer-market and pricing analysis |
+| **4. Research Institutes & Labs** | Software and acquisition support | Wet-lab and analysis collaboration | Modeling and statistical support | Program operations, outreach, impact framing |
 
----
-
-## 4. Priority Summary for Next Phase
-
-| Priority | Action | Rationale |
-| --- | --- | --- |
-| High | Record a club-owned canonical EEG dataset | Unblocks demonstrations and member projects |
-| High | Add rigorous validation methodology to WS6 | Highest-credibility gain per hour invested |
-| High | Bring feature extraction and classification decks to preprocessing-level depth | Corrects the clearest curriculum imbalance |
-| Medium | Add SSVEP as a paradigm | Best first-project on-ramp for new members |
-| Medium | Standardize on MNE-Python and publish skeleton code | Enables cohort-to-cohort inheritance |
-| Medium | Expand epoching and event-timing content | Addresses the most common silent failure mode |
-| Medium | Resolve slide placeholders | Reduces dependence on individual presenters |
-| Low | Add re-referencing to Preprocessing | Small addition, real conceptual value |
-
----
-
-## 5. Open Questions
-
-- What is meant by "technical overlap" in the current planning discussion — overlap between the biology and coding tracks, between CRUX's curriculum and industry/research expectations, or with another organization's technical scope? Each implies a different deliverable.
-- Does a skeleton code repository exist outside the reviewed materials? If so, its state is the most significant unassessed factor in this evaluation.
-- Will the biology/coding track split diverge the pipeline, or converge on shared projects?
+Cooperation modes across all four groups remain sponsorships, scoped student consulting engagements, product or analysis collaborations, guest talks, and student placement — drawn from whichever disciplines a given partner most needs. Recording each candidate against these four groups, against the discipline matrix, and against the characteristics in Section 3.1 keeps future mapping consistent, comparable across cycles, and useful to the entire membership rather than its engineering subset alone.
