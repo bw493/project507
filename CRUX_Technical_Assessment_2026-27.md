@@ -19,7 +19,7 @@ This assessment draws on the following materials:
 | `Operations Summer Meeting Notes.docx` | Board structure and cross-department context |
 | `24-25 Technical / OpenBCI Headset Tutorial` | Hardware tutorial video (existence noted; not analyzed) |
 
-**Important limitation.** No code repository, member roster, project outcomes, or competition results were available. Per board discussion, project artifacts remain the intellectual property of individual members and are not retained by the club. Accordingly, this document assesses **curriculum and program design**, not execution outcomes. Any claim about what members actually build would require evidence not present in these materials.
+**Important limitation.** No code repository, member roster, project outcomes, or competition results were available. Accordingly, this document assesses **curriculum and program design**, not execution outcomes. Any claim about what members actually build would require evidence not present in these materials.
 
 ---
 
@@ -100,25 +100,11 @@ Preprocessing is fully developed; feature extraction and classification exist la
 
 ---
 
-## 4. The Compounding Problem
-
-CRUX's strongest asset is a well-sequenced curriculum. Its structural weakness is that **nothing accumulates**: no project archive, no shared repository, no in-house dataset. Each cohort's technical work is effectively lost, so the program restarts rather than builds.
-
-The board has determined that project IP belongs to individual members and cannot be retained by the club. That constraint is real but narrower than it may appear — **ownership of intellectual property and retention of institutional knowledge are separable**. Options that respect member ownership:
-
-1. **Metadata-only archive.** Record paradigm, sampling rate, electrode montage, pipeline stages, and a lessons-learned paragraph. No code, no data, no results. This is closer to meeting minutes than to appropriation.
-2. **Opt-in licensing.** Members choose at the showcase whether to license their work to the club. An MIT license permits reuse while leaving ownership with the author.
-3. **Club-owned canonical dataset.** One afternoon of recorded eyes-open/eyes-closed alpha across board members — club-generated, therefore unencumbered — gives every future workshop real data to demonstrate on and gives new members something to classify by Week 4. This alone would substantially close the gap.
-
-*This is a governance question for the board, and possibly for UCLA's student organization office. It is raised here as an option to consider, not as legal advice.*
-
----
-
-## 5. Priority Summary for Next Phase
+## 4. Priority Summary for Next Phase
 
 | Priority | Action | Rationale |
 | --- | --- | --- |
-| High | Record a club-owned canonical EEG dataset | Unblocks demonstrations and member projects; no IP conflict |
+| High | Record a club-owned canonical EEG dataset | Unblocks demonstrations and member projects |
 | High | Add rigorous validation methodology to WS6 | Highest-credibility gain per hour invested |
 | High | Bring feature extraction and classification decks to preprocessing-level depth | Corrects the clearest curriculum imbalance |
 | Medium | Add SSVEP as a paradigm | Best first-project on-ramp for new members |
@@ -126,11 +112,10 @@ The board has determined that project IP belongs to individual members and canno
 | Medium | Expand epoching and event-timing content | Addresses the most common silent failure mode |
 | Medium | Resolve slide placeholders | Reduces dependence on individual presenters |
 | Low | Add re-referencing to Preprocessing | Small addition, real conceptual value |
-| Ongoing | Decide board policy on metadata-only project archive | Determines whether knowledge compounds |
 
 ---
 
-## 6. Open Questions
+## 5. Open Questions
 
 - What is meant by "technical overlap" in the current planning discussion — overlap between the biology and coding tracks, between CRUX's curriculum and industry/research expectations, or with another organization's technical scope? Each implies a different deliverable.
 - Does a skeleton code repository exist outside the reviewed materials? If so, its state is the most significant unassessed factor in this evaluation.
